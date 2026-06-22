@@ -1,4 +1,7 @@
 import './App.css'
+import citroen from './assets/citroenen.jpeg'
+import limoen from './assets/limoenen.png'
+import ijsblokjes from './assets/ijsblokjes.jpg'
 
 
 function App() {
@@ -12,7 +15,7 @@ function App() {
         <main>
             <article className={"product"}>
                 <img
-                    src="https://web.archive.org/web/20230323175637im_/https://willemsvershal.nl/wp-content/uploads/2020/05/mandarijnen-80-400x400.jpg"
+                    src={citroen}
                     alt="Citroen"
                 />
                 <h2 className="product-name">Citroen</h2>
@@ -24,8 +27,8 @@ function App() {
             </article>
             <article className={"product"}>
                 <img
-                    src="https://web.archive.org/web/20230323182146im_/https://willemsvershal.nl/wp-content/uploads/2020/05/pers-sinaasappels-80-400x400.jpg"
-                    alt="Citroen"
+                    src={limoen}
+                    alt="Limoen"
                 />
                 <h2 className="product-name">Limoen</h2>
                 <p className="product-description">
@@ -36,8 +39,8 @@ function App() {
             </article>
             <article className={"product"}>
                 <img
-                    src="https://web.archive.org/web/20230323164310im_/https://willemsvershal.nl/wp-content/uploads/2020/05/druiven-pitloos-wit-80-400x400.jpg"
-                    alt="Citroen"
+                    src={ijsblokjes}
+                    alt="Ijsblokjes"
                 />
                 <h2 className="product-name">IJsblokjes</h2>
                 <p className="product-description">
