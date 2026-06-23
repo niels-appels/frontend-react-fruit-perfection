@@ -6,6 +6,9 @@ import ijsblokjes from './assets/ijsblokjes.jpg'
 
 
 function App() {
+        function handleClick() {
+            console.log("Button clicked");
+        }
     return (
         <>
             <nav>
@@ -24,7 +27,7 @@ function App() {
             </nav>
             <header>
                 <h1>Fruit perfection</h1>
-                <button type="button">
+                <button type="button" onClick={handleClick}>
                     Shop nu</button>
             </header>
             <main>
